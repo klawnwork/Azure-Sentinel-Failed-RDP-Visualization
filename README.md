@@ -101,8 +101,23 @@ We run a KQL script to extract the fields and parse them. Below the script the c
 <img src="https://i.imgur.com/KuKcmv3.png" height="80%" width="80%"/>
 <br />
 <br />
-Next, we create a Log Analytics Workspace (LAW) to ingest logs from the VM: <br/>
+Now it's time to visualize the data. In Sentinel, we open a new workbook and add a query. We use the same query we used in the Log and select Map in the Visualization drop down menu: <br/>
 <br />
-<img src="https://i.imgur.com/YUiVqlL.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/xRsdUyX.png" height="80%" width="80%"/>
+<br />
+<br />
+Now we have the data plotted on a world map. We can change the map settings in the side menu. In this case, we want the country of origin and the number of events, which can be seen in the bottom left corner of the map. We can see my three log in attempts as well as over 3,000 attacks from Hanoi, Vietnam: <br/>
+<br />
+<img src="https://i.imgur.com/VtlCl6A.png" height="80%" width="80%"/>
+<br />
+<br />
+We leave the VM and script running in the background, as it takes time for different hackers to discover and attack the VM. After a day, we can see a large number of attacks originating from near West Africa: <br/>
+<br />
+<img src="https://i.imgur.com/sqVmI05.png" height="80%" width="80%"/>
+<br />
+<br />
+After another day, the attack origins are more diverse. They now include Hungary, Netherlands, and a small number from South Korea: <br/>
+<br />
+<img src="https://i.imgur.com/V4lQjJX.png" height="80%" width="80%"/>
 <br />
 <br />
