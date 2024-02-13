@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-Project consists of using Microsoft Sentinel to process and visualize security data obtained from a VM that is configured to encourage attacks from bad actors. 
+Project consists of using Microsoft Sentinel to process and visualize security data obtained from a Windows virtual machine that is configured to encourage attacks from bad actors. 
 <br />
 
 
