@@ -81,6 +81,26 @@ Now we are ready to run the script, and we get our personal API key from ipgeolo
 <img src="https://i.imgur.com/Tldeqyv.png" height="80%" width="80%"/>
 <br />
 <br />
+This is the log file failed_rdp.log that contains the raw data. Note the last three lines you can see my own failed log in attempts: <br/>
+<br />
+<img src="https://i.imgur.com/VAkOcuV.png" height="80%" width="80%"/>
+<br />
+<br />
+With the script running, we go back to Azure and create a Custom Log within our LAW. We add the log file for the sample log and add the location of the log file, C:\ProgramData\, as the collection path: <br/>
+<br />
+<img src="https://i.imgur.com/cOM2uDe.png" height="80%" width="80%"/>
+<br />
+<br />
+Once the Custom Log is created (named FAILED_RDP_WITH_GEO_CL), we can go to Logs and run a query with that name to view the data within that log. We can see the data under the column labeled RawData. The data is all there, but it is not parsed into separate fields yet: <br/>
+<br />
+<img src="https://i.imgur.com/AfSsdp9.png" height="80%" width="80%"/>
+<br />
+<br />
+We run a KQL script to extract the fields and parse them. Below the script the column RawData is gone and the data is now parsed into separate fields: <br/>
+<br />
+<img src="https://i.imgur.com/KuKcmv3.png" height="80%" width="80%"/>
+<br />
+<br />
 Next, we create a Log Analytics Workspace (LAW) to ingest logs from the VM: <br/>
 <br />
 <img src="https://i.imgur.com/YUiVqlL.png" height="80%" width="80%"/>
