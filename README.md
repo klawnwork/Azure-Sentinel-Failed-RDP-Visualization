@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-Project consists of the automated gathering of failed log in attempts of a VM and processing/visualizing that data in a SIEM. 
+Project consists of using Microsoft Sentinel to process and visualize security data obtained from a VM that is configured to encourage attacks from bad actors. 
 <br />
 
 
