@@ -56,7 +56,7 @@ Now go to Microsoft Sentinel, the SIEM we'll use to organize and visualize the d
 <img src="https://i.imgur.com/3kM9nyw.png height="80%" width="80%"/>
 <br />
 <br />
-With the main infrastructure set up we can use the public IP address of out VM to connect to it via Remote Desktop Connection: <br/>
+With the main infrastructure set up we can use the public IP address of our VM to connect to it via Remote Desktop Connection: <br/>
 <br />
 <img src="https://i.imgur.com/XlEfuW8.png" height="80%" width="80%"/>
 <br />
